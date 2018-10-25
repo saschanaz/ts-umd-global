@@ -1,0 +1,19 @@
+{
+  "name": "ts-umd-global",
+  "version": "1.0.0",
+  "description": "Add global namespace support for TypeScript-generated UMD code",
+  "main": "index.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "umd"
+  ],
+  "author": "Kagami Sascha Rosylight <saschanaz@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^12.0.2"
+  }
+}
