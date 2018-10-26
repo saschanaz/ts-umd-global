@@ -1,6 +1,6 @@
 {
   "name": "ts-umd-global",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add global namespace support for TypeScript-generated UMD code",
   "main": "index.js",
   "bin": "./bin.js",
