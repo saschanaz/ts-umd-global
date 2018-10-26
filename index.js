@@ -25,8 +25,8 @@ function js(path, namespace) {
         .replace("function (factory)", "function (global, factory)")
         .replace("})(function (require, exports) {", `    else {
         global.${namespace} = global.${namespace} || {};
-        var exports = global.${namespace};
-        factory(global.require, exports);
+        var leaf = global.${namespace};
+        factory(global.require, leaf);
     }
 })(this, function (require, exports) {`);
     fs.writeFileSync(path, injected);
